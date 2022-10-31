@@ -44,7 +44,7 @@
                                             <a class="nav-link" aria-current="page" href="http://vttd.com/">Home</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" aria-current="page" href="/about-us.html">About</a>
+                                            <a class="nav-link" aria-current="page" href="{{route('aboutus')}}">About</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" aria-current="page" href="#">Events</a>
