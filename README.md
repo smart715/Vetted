@@ -18,20 +18,6 @@
 - PHP 8.x
 - Composer
 
-
-## Environment Variables
-
-To run this project, you will need to add the following environment variables to your .env file
-
-`API_KEY`
-
-## Mailtrap Account for Test
-
-[mailtrap.io](https://mailtrap.io/)
-
-- Email    : smartmanage715@gmail.com
-- Password : 123456789
-
 ## Deployment
 
 ```bash

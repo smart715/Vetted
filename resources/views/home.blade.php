@@ -26,12 +26,14 @@
             <div class="header-row-wrap">
                 <div class="row">
                     <div class="col-md-3 themed-grid-col logo-section">
-                        <a href="http://vttd.com/"><img src="{{ asset('assets/images/site-logo.svg') }}" alt="Vetted"></a>
+                        <a href="http://vttd.com/"><img src="{{ asset('assets/images/site-logo.svg') }}"
+                                alt="Vetted"></a>
                     </div>
                     <div class="col-md-6 themed-grid-col">
                         <nav class="navbar navbar-expand-lg" aria-label="Eleventh navbar example">
                             <div class="container-fluid">
-                                <a class="navbar-brand" href="home.html"><img src="{{ asset('assets/img/logo.png') }}" alt=""></a>
+                                <a class="navbar-brand" href="home.html"><img src="{{ asset('assets/img/logo.png') }}"
+                                        alt=""></a>
                                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#navbarsExample09" aria-controls="navbarsExample09"
                                     aria-expanded="false" aria-label="Toggle navigation">
@@ -44,7 +46,8 @@
                                             <a class="nav-link" aria-current="page" href="http://vttd.com/">Home</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" aria-current="page" href="{{route('aboutus')}}">About</a>
+                                            <a class="nav-link" aria-current="page"
+                                                href="{{ route('aboutus') }}">About</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" aria-current="page" href="#">Events</a>
@@ -54,7 +57,8 @@
                                         </li>
 
                                         <li class="nav-item">
-                                            <a class="nav-link contact-us" aria-current="page" href="{{route('aboutus')}}">Contact
+                                            <a class="nav-link contact-us" aria-current="page"
+                                                href="{{ route('aboutus') }}">Contact
                                                 Us</a>
                                         </li>
 
@@ -83,7 +87,7 @@
         </div>
     </header>
     <main class="site-main">
-        <div class="container">
+        <div class="container home-container">
 
             <div class="row home-1st-section">
                 <div class="col-md-6">
@@ -99,7 +103,7 @@
             </div>
         </div>
         <!--end of container class -->
-        <div class="home-2nd-section">
+        <div class="home-2nd-section home-container">
             <div class="container">
                 <div class="row">
                     <h1 class="title">Why <span>Vetted?</span></h1>
@@ -124,7 +128,7 @@
             </div>
         </div>
 
-        <div class="home-3rd-section">
+        <div class="home-3rd-section home-container">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
@@ -142,11 +146,11 @@
         </div>
 
 
-        <div class="home-4th-section">
+        <div class="home-4th-section home-container">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <img src="{{ asset('assets/images/our-service-img.svg') }}" alt="Our Service" />
+                        <img src="{{ asset('assets/images/our-service-img-3.svg') }}" alt="Our Service" />
                     </div>
                     <div class="col-md-6 right-side">
                         <h2>Our Service</h2>
@@ -160,7 +164,7 @@
         </div>
 
 
-        <div class="home-5th-section">
+        <div class="home-5th-section home-container">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
@@ -178,7 +182,7 @@
 
 
         <div class="home-6th-section">
-            <div class="container">
+            <div class="container  home-container">
                 <div class="row">
                     <div class="col-md-6">
                         <ul>
@@ -201,20 +205,21 @@
         </div>
 
 
-        <div class="home-7th-section">
+        <div class="home-7th-section home-container">
             <div class="container">
                 <div class="row">
                     <h1>Special Requirements?</h1>
                     <p>Please contact us</p>
                     <div class="arrow-wrap">
-                        <a href="#"><img src="{{ asset('assets/images/special-arrow-icon.svg') }}" alt="" /></a>
+                        <a href="#"><img src="{{ asset('assets/images/special-arrow-icon.svg') }}"
+                                alt="" /></a>
                     </div>
                 </div>
             </div>
         </div>
     </main>
     <footer class="site-footer">
-        <div class="container">
+        <div class="container  home-container">
             <div class="row">
                 <div class="col-md-8">
                     <img src="{{ asset('assets/images/site-logo.svg') }}" alt="Vetted" class="footer-logo" />
